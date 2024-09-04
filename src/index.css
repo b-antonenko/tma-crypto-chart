@@ -1,0 +1,19 @@
+body {
+  background: white;
+  padding: 5%;
+  margin: 0;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.apexcharts-xaxis-label {
+  display: none;
+}
+
+.uptrend {
+  color: green;
+}
+
+.downtrend {
+  color: red;
+}
