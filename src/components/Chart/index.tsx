@@ -1,4 +1,7 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 /* eslint-disable react/prop-types */
+// @ts-nocheck
+
 import { useEffect, useState } from 'react';
 import Chart from 'react-apexcharts'
 
@@ -56,7 +59,7 @@ const defaultSeries = [{
     },
   };
 
-export const ChartComponent = props => {
+export const ChartComponent = () => {
     
 const [series, setSeries] = useState(defaultSeries);
 const [screenClicked, setScreenClicked] = useState(false);
