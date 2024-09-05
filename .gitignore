@@ -25,3 +25,6 @@ dist-ssr
 *.sw?
 
 *.pem
+
+# Local Netlify folder
+.netlify
